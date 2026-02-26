@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
 const app = express();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 8080;
 const BASE_URL = 'https://asialiveaction.com';
 
 // ─── CORS (obligatorio para Stremio) ───────────────────────────────────────
